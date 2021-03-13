@@ -18,11 +18,19 @@ namespace ClickerGameWPF
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Game : Window
     {
-        public MainWindow()
+        private int Score = 0; 
+
+        public Game()
         {
-            InitializeComponent();
+            InitializeComponent();            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Score++;
+            ScoreLabel.Content = Score.ToString();
         }
     }
 }
