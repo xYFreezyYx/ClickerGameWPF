@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="ClickerGame" Height="450" Width="800">
     <Grid Background="Black">
-        <Button Content="Click Me!" HorizontalAlignment="Center" Margin="283,148,287.6,143" VerticalAlignment="Center" Width="223" Height="129" FontSize="45" BorderBrush="Black" FontFamily="Consolas" OpacityMask="Black" Click="Button_Click">
+        <Button Content="Click Me!" HorizontalAlignment="Center" Margin="283,148,287.6,143" VerticalAlignment="Center" Width="223" Height="129" FontSize="45" BorderBrush="Black" FontFamily="Consolas" OpacityMask="Black" Click="Button_Click" Cursor="Hand">
             <Button.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
